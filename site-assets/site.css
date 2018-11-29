@@ -709,6 +709,7 @@ img.img--with_border {
 .demo-gallery {
   height: auto;
   float: left;
+  background: black;
 }
 
 .demo-gallery a {
@@ -718,27 +719,29 @@ img.img--with_border {
   float: left;
   margin: 0;
   width: 160px;
+  height: 120px;
   line-height: 0;
 }
 
-.demo-gallery img {
+.demo-gallery div {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -webkit-touch-callout: none;
   display: block;
   float: left;
   margin: 0;
   width: 160px;
-  line-height: 0;
+  height: 120px;
+  background: black;
 }
 
 a.demo-gallery__img--main {
   width: 320px;
-  height: auto;
+  height: 240px;
 }
 
-a.demo-gallery__img--main img {
+a.demo-gallery__img--main div {
   width: 320px;
-  height: auto;
+  height: 240px;
 }
 
 .ukraine-flag {
