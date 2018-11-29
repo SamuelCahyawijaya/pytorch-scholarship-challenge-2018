@@ -709,7 +709,6 @@ img.img--with_border {
 .demo-gallery {
   height: auto;
   float: left;
-  background: black;
 }
 
 .demo-gallery a {
@@ -731,7 +730,6 @@ img.img--with_border {
   margin: 0;
   width: 160px;
   height: 120px;
-  background: black;
 }
 
 a.demo-gallery__img--main {
