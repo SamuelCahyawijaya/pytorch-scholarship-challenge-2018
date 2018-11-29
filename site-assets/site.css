@@ -475,7 +475,7 @@ p, ul.text-list {
   margin: 0;
   background: #EEE;
   /*background: linear-gradient(180deg, #eee 0%,#fff 100%);*/
-  padding: 0px 0;
+  padding: 0px;
 }
 
 .section--head{
@@ -498,8 +498,8 @@ p, ul.text-list {
 }
 .row--heading {
   max-width: 500px !important;
-  margin-top: 40px;
-  margin-bottom: 10px;
+  margin-top: 2.5%;
+  margin-bottom: 1.5%;
   text-align: center !important;
 }
 .row--footer {
@@ -709,9 +709,11 @@ img.img--with_border {
 .demo-gallery {
   height: auto;
   float: left;
+  background: black;
 }
 
-.demo-gallery a {
+.demo-gallery a,
+.demo-gallery div {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -webkit-touch-callout: none;
   display: block;
@@ -722,17 +724,9 @@ img.img--with_border {
   line-height: 0;
 }
 
-.demo-gallery div {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -webkit-touch-callout: none;
-  display: block;
-  float: left;
-  margin: 0;
-  width: 160px;
-  height: 120px;
-}
 
-a.demo-gallery__img--main {
+a.demo-gallery__img--main,
+a.demo-gallery__img--main div {
   width: 320px;
   height: 240px;
 }
@@ -740,6 +734,7 @@ a.demo-gallery__img--main {
 a.demo-gallery__img--main div {
   width: 320px;
   height: 240px;
+  background: black;
 }
 
 .ukraine-flag {
@@ -836,7 +831,7 @@ a.demo-gallery__img--main div {
     margin-left: 0;
   }
   .section {
-    margin-top: 132px;
+    margin-top: 2%;
   }
 
   .row--docs {
@@ -846,8 +841,7 @@ a.demo-gallery__img--main div {
   }
   
   .section--head {
-    margin-top:0;
-    padding: 30px 0;
+    padding: 0;
   }
 
   .docs {
@@ -893,7 +887,9 @@ a.demo-gallery__img--main div {
 
 @media screen and (max-width: 450px) {
   
-
+  h1 {
+    font-size: 32px;
+  }
   .col-50:nth-child(1) {
     margin-right: 0;
   }
@@ -905,7 +901,7 @@ a.demo-gallery__img--main div {
     margin-bottom: 12px;
   }
   .row {
-    padding: 0 18px;
+    padding: 0;
   }
   .docs .highlight,
   .codepen-embed {
@@ -914,59 +910,31 @@ a.demo-gallery__img--main div {
     margin-left: -18px;
   }
   .section {
-    margin-top: 88px;
+    margin-top: 5%;
   }
   .docs {
     margin-top: 32px;
   }
   .section--head {
-    margin-top:0;
-    padding: 24px 0;
-  }
-  .row--nav {
-    font-size: 18px;
-    line-height: 26px; 
-  }
-
-
-}
-
-@media screen and (max-width: 700px) {
-
-  .row {
-    max-width: 240px;
-    margin: 16px 16px;
     padding: 0;
   }
-
   .row--nav {
     font-size: 18px;
     line-height: 26px; 
   }
 
-  .demo-gallery {
-    max-width: 240px;
-  }
-  .demo-gallery a {
-    width: 120px;
-    margin: 0;
-  }
-  a.demo-gallery__img--main {
-    width: 240px;
-  }
-  .section--head p {
-    font-size: 18px;
-    line-height: 24px;
-  }
+
 }
 
 /*
 @media screen and (max-width: 490px) {
-  .demo-gallery a {
+  .demo-gallery a,
+  .demo-gallery div {
     width: 100px;
     margin: 0 4px 4px 0;
   }
-  a.demo-gallery__img--main {
+  a.demo-gallery__img--main,
+  a.demo-gallery__img--main div {
     width: 137px;
   }
 }
@@ -978,11 +946,13 @@ a.demo-gallery__img--main div {
     padding: 0;
   }
 
-  .demo-gallery a {
+  .demo-gallery a,
+  .demo-gallery div {
     width: 90px;
     margin: 0;
   }
-  a.demo-gallery__img--main {
+  a.demo-gallery__img--main,
+  a.demo-gallery__img--main div {
     width: 180px;
   }
 }
@@ -996,11 +966,13 @@ a.demo-gallery__img--main div {
     margin: 10px 10px;
     padding: 0;
   }
-  .demo-gallery a {
+  .demo-gallery a,
+  .demo-gallery div {
     width: 80px;
-margin: 0 1px 1px 0;
+    margin: 0;
   }
-  a.demo-gallery__img--main {
+  a.demo-gallery__img--main,
+  a.demo-gallery__img--main div {
     width: 160px;
   }
 }
