@@ -508,12 +508,10 @@
 			}
 		};
 
-    	$.get(window.location.origin + '/data.json').done(function(response) {
-	    	data = JSON.parse(response);
-	    	indexes = [];
-
+    	$.get(window.location.origin + '/data.json').done(function(data) {
 	    	N = 30;
 	    	len = data.length;
+	    	indexes = [];
 			for (i = 0; i < Math.min(N, len); i++) {
 				if (len > 2 * N){
 					do{
