@@ -783,7 +783,7 @@ a.demo-gallery__img--main div {
   -moz-border-radius: 2px;
   border-radius: 2px;
   display: inline-block;
-  padding: 5px 10px;
+  padding: 5px 10px 3px 10px;
   margin: 10px;
   color: #FFF;
   text-decoration: none;
@@ -975,4 +975,8 @@ a.demo-gallery__img--main div {
   a.demo-gallery__img--main div {
     width: 160px;
   }
+}
+
+.author-info{
+  font-size: 14px;
 }

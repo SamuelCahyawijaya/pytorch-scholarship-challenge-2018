@@ -1,0 +1,138 @@
+[
+    {
+        "title" : "The Black Rose",
+        "author" : "Samuel",
+        "country" : "Indonesia",
+        "content" : {
+            "image" : "./images/c1.png",
+            "caption" : "A bouquet of flowers"
+        },
+        "style" : {
+            "image" : "./images/s1.jpg",
+            "caption" : "Candy"
+        },
+        "fuse" : {
+            "image" : "./images/r1.png",
+            "caption" : "No rose grows without a thorn"
+        }
+    },
+    {
+        "title" : "Sunset",
+        "author" : "Samuel",
+        "country" : "Indonesia",
+        "content" : {
+            "image" : "./images/c2.png",
+            "caption" : "A sketch of a house"
+        },
+        "style" : {
+            "image" : "./images/s2.jpg",
+            "caption" : "Scream - Edvard Munch"
+        },
+        "fuse" : {
+            "image" : "./images/r2.png",
+            "caption" : "When the sun has set, no candle can replace it."
+        }
+    },
+    {
+        "title" : "Haunted",
+        "author" : "Samuel",
+        "country" : "Indonesia",
+        "content" : {
+            "image" : "./images/c3.png",
+            "caption" : "A sketch of a house"
+        },
+        "style" : {
+            "image" : "./images/s3.png",
+            "caption" : "Shipwreck of the Minotaur"
+        },
+        "fuse" : {
+            "image" : "./images/r3.png",
+            "caption" : "Come to my house..."
+        }
+    },
+    {
+        "title" : "Into the Dark",
+        "author" : "Samuel",
+        "country" : "Indonesia",
+        "content" : {
+            "image" : "./images/c4.png",
+            "caption" : "A long road"
+        },
+        "style" : {
+            "image" : "./images/s4.png",
+            "caption" : "Seated Nude - Pablo Picasso"
+        },
+        "fuse" : {
+            "image" : "./images/r4.png",
+            "caption" : "A way full of darkness"
+        }
+    },
+    {
+        "title" : "Shining",
+        "author" : "Samuel",
+        "country" : "Indonesia",
+        "content" : {
+            "image" : "./images/c5.png",
+            "caption" : "Colorful leaves"
+        },
+        "style" : {
+            "image" : "./images/s5.png",
+            "caption" : "Seated Nude - Pablo Picasso"
+        },
+        "fuse" : {
+            "image" : "./images/r5.png",
+            "caption" : "A light shining through the leaves"
+        }
+    },
+    {
+        "title" : "Apocalypse",
+        "author" : "Samuel",
+        "country" : "Indonesia",
+        "content" : {
+            "image" : "./images/c7.png",
+            "caption" : "Venice"
+        },
+        "style" : {
+            "image" : "./images/s7.jpg",
+            "caption" : "Scream - Edvard Munch"
+        },
+        "fuse" : {
+            "image" : "./images/r7.png",
+            "caption" : "Is this the end?"
+        }
+    },
+    {
+        "title" : "Black & White",
+        "author" : "Samuel",
+        "country" : "Indonesia",
+        "content" : {
+            "image" : "./images/c9.jpg",
+            "caption" : "An ant on a flower"
+        },
+        "style" : {
+            "image" : "./images/s9.jpg",
+            "caption" : "Eye - M. C. Escher"
+        },
+        "fuse" : {
+            "image" : "./images/r9.jpg",
+            "caption" : "Ant - Samuel Cahywijaya"
+        }
+    },
+    {
+        "title" : "Burning!!",
+        "author" : "Samuel",
+        "country" : "Indonesia",
+        "content" : {
+            "image" : "./images/c10.jpg",
+            "caption" : "A tiny spider"
+        },
+        "style" : {
+            "image" : "./images/s10.jpg",
+            "caption" : "Mysterious Rain Princess - Leonid Afremov"
+        },
+        "fuse" : {
+            "image" : "./images/r10.jpg",
+            "caption" : "Burning!!! Do you see the spider?"
+        }
+    }
+]

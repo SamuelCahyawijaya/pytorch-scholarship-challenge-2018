@@ -12,16 +12,18 @@
     <meta name="author" content="Samuel Cahyawijaya">
 
     <meta property="og:title" content="Pytorch Scholarship Challenge">
-    <meta property="og:description" content="Pytorch Scholarship Challenge - Fulfilling, Fun, Challenging, and Rewarding
+    <meta property="og:description" content="Pytorch Scholarship Challenge - Fulfilling, Fun, Challenging, and Rewarding">
 
     <link rel="icon apple-touch-icon" href="test/apple-touch-icon-144x144.png" sizes="144x144" type="image/png">
+  	<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <link href="site-assets/site.css?v=4.1.2-1.0.4" rel="stylesheet" />
     <link href="dist/photoswipe.css?v=4.1.2-1.0.4" rel="stylesheet" />
     <link href="dist/default-skin/default-skin.css?v=4.1.2-1.0.4" rel="stylesheet" />
     
     
 	<script src=dist/photoswipe.js></script>
-	<script src=dist/photoswipe-ui-default.js?></script>
+	<script src=dist/photoswipe-ui-default.js></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script>try{Typekit.load();}catch(e){}</script>
 
       <!--[if lt IE 9]>
@@ -39,22 +41,23 @@
 		    <iframe src="http://ghbtns.com/github-btn.html?user=SamuelCahyawijaya&amp;repo=pytorch_udacity_showcase&amp;type=watch&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="30" style="transform: translateY(8px);-moz-transform: translateY(8px);-webkit-transform: translateY(8px); margin-left: 9px;"></iframe>
 	    </div>
 	</div>
-	<div class="section section--head"> 
+	<div id="gallery" class="section section--head"> 
+		<!--
 	    <div class="row">
     	  <div>Title 1</div>
     	  <div>Samuel, Indonesia</div>
 	      <div id="demo-test-gallery" class="demo-gallery">
-	        <a href="./images/benches.jpg" data-size="1600x1067" data-med="./images/benches.jpg" data-med-size="1024x683" data-author="Samuel">
+	        <a href="./images/benches.jpg" data-size="1600x1067" data-med="./images/benches.jpg" data-med-size="1024x683" data-author="Samuel, Indonesia">
 	          <div style="background: url('./images/benches.jpg') no-repeat; background-size: contain; background-position: center;"></div>
 	          <figure>This is dummy caption. It is not meant to be read.</figure>
 	        </a>
 
-	        <a href="./images/coast.jpg" data-size="1600x1067" data-med="./images/coast.jpg" data-med-size="1024x683" data-author="Samuel">
+	        <a href="./images/coast.jpg" data-size="1600x1067" data-med="./images/coast.jpg" data-med-size="1024x683" data-author="Samuel, Indonesia">
 	          <div style="background: url('./images/coast.jpg') no-repeat; background-size: contain; background-position: center;"></div>
 	          <figure>Dummy caption. It's Greek to you. Unless, of course, you're Greek, in which case, it really makes no sense.</figure>
 	        </a>
 
-	        <a href="./images/park.jpg" data-size="1600x1068" data-med="./images/park.jpg" data-med-size="1024x683" data-author="Samuel" class="demo-gallery__img--main">
+	        <a href="./images/park.jpg" data-size="1600x1068" data-med="./images/park.jpg" data-med-size="1024x683" data-author="Samuel, Indonesia" class="demo-gallery__img--main">
 	          <div style="background: url('./images/park.jpg') no-repeat; background-size: contain; background-position: center;"></div>
 	          <figure>This is dummy caption. It has been placed here solely to demonstrate the look and feel of finished, typeset text.</figure>
 	        </a>
@@ -65,17 +68,17 @@
     	  <div>Title 2</div>
     	  <div>Samuel, Indonesia</div>
 	      <div id="demo-test-gallery" class="demo-gallery">
-	        <a href="./images/rails.jpg" data-size="1600x1067" data-med="./images/rails.jpg" data-med-size="1024x683" data-author="Samuel">
+	        <a href="./images/rails.jpg" data-size="1600x1067" data-med="./images/rails.jpg" data-med-size="1024x683" data-author="Samuel, Indonesia">
 	          <div style="background: url('./images/rails.jpg') no-repeat; background-size: contain; background-position: center;"></div>
 	          <figure>This is dummy caption. It is not meant to be read.</figure>
 	        </a>
 
-	        <a href="./images/rocks.jpg" data-size="1600x1067" data-med="./images/rocks.jpg" data-med-size="1024x683" data-author="Samuel">
+	        <a href="./images/rocks.jpg" data-size="1600x1067" data-med="./images/rocks.jpg" data-med-size="1024x683" data-author="Samuel, Indonesia">
 	          <div style="background: url('./images/rocks.jpg') no-repeat; background-size: contain; background-position: center;"></div>
 	          <figure>Dummy caption. It's Greek to you. Unless, of course, you're Greek, in which case, it really makes no sense.</figure>
 	        </a>
 
-	        <a href="./images/bridge.jpg" data-size="1600x1068" data-med="./images/bridge.jpg" data-med-size="1024x683" data-author="Samuel" class="demo-gallery__img--main">
+	        <a href="./images/bridge.jpg" data-size="1600x1068" data-med="./images/bridge.jpg" data-med-size="1024x683" data-author="Samuel, Indonesia" class="demo-gallery__img--main">
 	          <div style="background: url('./images/bridge.jpg') no-repeat; background-size: contain; background-position: center;"></div>
 	          <figure>This is dummy caption. It has been placed here solely to demonstrate the look and feel of finished, typeset text.</figure>
 	        </a>
@@ -86,17 +89,17 @@
     	  <div>Title 3</div>
     	  <div>Samuel, Indonesia</div>
 	      <div id="demo-test-gallery" class="demo-gallery">
-	        <a href="./images/sky.jpg" data-size="1600x1067" data-med="./images/sky.jpg" data-med-size="1024x683" data-author="Samuel">
+	        <a href="./images/sky.jpg" data-size="1600x1067" data-med="./images/sky.jpg" data-med-size="1024x683" data-author="Samuel, Indonesia">
 	          <div style="background: url('./images/sky.jpg') no-repeat; background-size: contain; background-position: center;"></div>
 	          <figure>This is dummy caption. It is not meant to be read.</figure>
 	        </a>
 
-	        <a href="./images/traffic.jpg" data-size="1600x1067" data-med="./images/traffic.jpg" data-med-size="1024x683" data-author="Samuel">
+	        <a href="./images/traffic.jpg" data-size="1600x1067" data-med="./images/traffic.jpg" data-med-size="1024x683" data-author="Samuel, Indonesia">
 	          <div style="background: url('./images/traffic.jpg') no-repeat; background-size: contain; background-position: center;"></div>
 	          <figure>Dummy caption. It's Greek to you. Unless, of course, you're Greek, in which case, it really makes no sense.</figure>
 	        </a>
 
-	        <a href="./images/tunnel.jpg" data-size="1600x1068" data-med="./images/tunnel.jpg" data-med-size="1024x683" data-author="Samuel" class="demo-gallery__img--main">
+	        <a href="./images/tunnel.jpg" data-size="1600x1068" data-med="./images/tunnel.jpg" data-med-size="1024x683" data-author="Samuel, Indonesia" class="demo-gallery__img--main">
 	          <div style="background: url('./images/tunnel.jpg') no-repeat; background-size: contain; background-position: center;"></div>
 	          <figure>This is dummy caption. It has been placed here solely to demonstrate the look and feel of finished, typeset text.</figure>
 	        </a>
@@ -107,17 +110,17 @@
     	  <div>Title 4</div>
     	  <div>Samuel, Indonesia</div>
 	      <div id="demo-test-gallery" class="demo-gallery">
-	        <a href="./images/tunnel.jpg" data-size="1600x1067" data-med="./images/tunnel.jpg" data-med-size="1024x683" data-author="Samuel">
+	        <a href="./images/tunnel.jpg" data-size="1600x1067" data-med="./images/tunnel.jpg" data-med-size="1024x683" data-author="Samuel, Indonesia">
 	          <div style="background: url('./images/tunnel.jpg') no-repeat; background-size: contain; background-position: center;"></div>
 	          <figure>This is dummy caption. It is not meant to be read.</figure>
 	        </a>
 
-	        <a href="./images/bridge.jpg" data-size="1600x1067" data-med="./images/bridge.jpg" data-med-size="1024x683" data-author="Samuel">
+	        <a href="./images/bridge.jpg" data-size="1600x1067" data-med="./images/bridge.jpg" data-med-size="1024x683" data-author="Samuel, Indonesia">
 	          <div style="background: url('./images/bridge.jpg') no-repeat; background-size: contain; background-position: center;"></div>
 	          <figure>Dummy caption. It's Greek to you. Unless, of course, you're Greek, in which case, it really makes no sense.</figure>
 	        </a>
 
-	        <a href="./images/benches.jpg" data-size="1600x1068" data-med="./images/benches.jpg" data-med-size="1024x683" data-author="Samuel" class="demo-gallery__img--main">
+	        <a href="./images/benches.jpg" data-size="1600x1068" data-med="./images/benches.jpg" data-med-size="1024x683" data-author="Samuel, Indonesia" class="demo-gallery__img--main">
 	          <div style="background: url('./images/benches.jpg') no-repeat; background-size: contain; background-position: center;"></div>
 	          <figure>This is dummy caption. It has been placed here solely to demonstrate the look and feel of finished, typeset text.</figure>
 	        </a>
@@ -128,52 +131,33 @@
     	  <div>Title 5</div>
     	  <div>Samuel, Indonesia</div>
 	      <div id="demo-test-gallery" class="demo-gallery">
-	        <a href="./images/sky.jpg" data-size="1600x1067" data-med="./images/sky.jpg" data-med-size="1024x683" data-author="Samuel">
+	        <a href="./images/sky.jpg" data-size="1600x1067" data-med="./images/sky.jpg" data-med-size="1024x683" data-author="Samuel, Indonesia">
 	          <div style="background: url('./images/sky.jpg') no-repeat; background-size: contain; background-position: center;"></div>
 	          <figure>This is dummy caption. It is not meant to be read.</figure>
 	        </a>
 
-	        <a href="./images/bridge.jpg" data-size="1600x1067" data-med="./images/bridge.jpg" data-med-size="1024x683" data-author="Samuel">
+	        <a href="./images/bridge.jpg" data-size="1600x1067" data-med="./images/bridge.jpg" data-med-size="1024x683" data-author="Samuel, Indonesia">
 	          <div style="background: url('./images/bridge.jpg') no-repeat; background-size: contain; background-position: center;"></div>
 	          <figure>Dummy caption. It's Greek to you. Unless, of course, you're Greek, in which case, it really makes no sense.</figure>
 	        </a>
 
-	        <a href="./images/rails.jpg" data-size="1600x1068" data-med="./images/rails.jpg" data-med-size="1024x683" data-author="Samuel" class="demo-gallery__img--main">
+	        <a href="./images/rails.jpg" data-size="1600x1068" data-med="./images/rails.jpg" data-med-size="1024x683" data-author="Samuel, Indonesia" class="demo-gallery__img--main">
 	          <div style="background: url('./images/rails.jpg') no-repeat; background-size: contain; background-position: center;"></div>
 	          <figure>This is dummy caption. It has been placed here solely to demonstrate the look and feel of finished, typeset text.</figure>
 	        </a>
 	      </div>
 	    </div>
+		-->
 
-	    <div class="row">
-    	  <div>Title 6</div>
-    	  <div>Samuel, Indonesia</div>
-	      <div id="demo-test-gallery" class="demo-gallery">
-	        <a href="./images/udacity_logo.png" data-size="1600x1067" data-med="./images/udacity_logo.png" data-med-size="1024x683" data-author="Samuel">
-	          <div style="background: url('./images/udacity_logo.png') no-repeat; background-size: contain; background-position: center;"></div>
-	          <figure>This is dummy caption. It is not meant to be read.</figure>
-	        </a>
-
-	        <a href="./images/facebook_logo.png" data-size="1600x1067" data-med="./images/facebook_logo.png" data-med-size="1024x683" data-author="Samuel">
-	          <div style="background: url('./images/facebook_logo.png') no-repeat; background-size: contain; background-position: center;"></div>
-	          <figure>Dummy caption. It's Greek to you. Unless, of course, you're Greek, in which case, it really makes no sense.</figure>
-	        </a>
-
-	        <a href="./images/pytorch_logo.png" data-size="1600x1068" data-med="./images/pytorch_logo.png" data-med-size="1024x683" data-author="Samuel" class="demo-gallery__img--main">
-	          <div style="background: url('./images/pytorch_logo.png') no-repeat; background-size: contain; background-position: center;"></div>
-	          <figure>This is dummy caption. It has been placed here solely to demonstrate the look and feel of finished, typeset text.</figure>
-	        </a>
-	      </div>
-	    </div>
 	</div>
 
 	<div class="row--large">
 		<div class="share-buttons" style="text-align:center">
 		  <h2>Our Special Thanks To</h2>
 		  <div id="buttons-row">
-		    <a id="udacity" rel="nofollow" target="_blank" href="https://udacity.com/"><img src="./images/udacity_logo.png"></a>
-		    <a id="pytorch" rel="nofollow" target="_blank" href="https://pytorch.org/"><img src="./images/pytorch_logo.png"></a> 
-		    <a id="facebook" rel="nofollow" target="_blank" href="http://www.facebook.com/"><img src="./images/facebook_logo.png"></a> 
+		    <a id="udacity" rel="nofollow" target="_blank" href="https://udacity.com/"><img src="./site-assets/udacity_logo.png"></a>
+		    <a id="pytorch" rel="nofollow" target="_blank" href="https://pytorch.org/"><img src="./site-assets/pytorch_logo.png"></a> 
+		    <a id="facebook" rel="nofollow" target="_blank" href="http://www.facebook.com/"><img src="./site-assets/facebook_logo.png"></a> 
 		  </div>
 		</div>
 	</div>
@@ -239,8 +223,6 @@
     
   
     <script type="text/javascript">
-    (function() {
-
 		var initPhotoSwipeFromDOM = function(gallerySelector) {
 
 			var parseThumbnailElements = function(el) {
@@ -404,7 +386,7 @@
 							captionEl.children[0].innerText = '';
 							return false;
 						}
-						captionEl.children[0].innerHTML = item.title +  '<br/><small>Photo: ' + item.author + '</small>';
+						captionEl.children[0].innerHTML = item.title +  '<br/><small>' + item.author + '</small>';
 						return true;
 			        }
 					
@@ -432,8 +414,6 @@
 			    if( isNaN(options.index) ) {
 			    	return;
 			    }
-
-
 
 				var radios = document.getElementsByName('gallery-style');
 				for (var i = 0, length = radios.length; i < length; i++) {
@@ -528,21 +508,49 @@
 			}
 		};
 
-		initPhotoSwipeFromDOM('.demo-gallery');
+    	$.get(window.location.origin + '/data.json').done(function(response) {
+	    	data = JSON.parse(response);
+	    	indexes = [];
 
-	})();
+	    	N = 30;
+	    	len = data.length;
+			for (i = 0; i < Math.min(N, len); i++) {
+				if (len > 2 * N){
+					do{
+						rand = Math.random();
+						idx = Math.floor(rand * data.length)
+					} while (indexes.indexOf(idx) != -1);
+					indexes.push(idx);
+				}else{
+					idx = i;
+				}
 
+				item = `<div class="row">
+				  <div><b>` + data[idx]['title'] + `</b></div>
+				  <div class="author-info">` + data[idx]['author'] + `, ` + data[idx]['country'] + `</div>
+				  <div id="demo-test-gallery" class="demo-gallery">
+				    <a class="content-image" href="` + data[idx]['content']['image'] + `" data-size="1600x1200" data-med="` + data[idx]['content']['image'] + `" data-med-size="1024x768" data-author="` + data[idx]['author'] + `, ` + data[idx]['country'] + `">
+				      <div style="background: url('` + data[idx]['content']['image'] + `') no-repeat; background-size: cover; background-position: center;"></div>
+				      <figure>[CONTENT] ` + data[idx]['content']['caption'] + `</figure>
+				    </a>
+
+				    <a class="style-image" href="` + data[idx]['style']['image'] + `" data-size="1600x1200" data-med="` + data[idx]['style']['image'] + `" data-med-size="1024x768" data-author="` + data[idx]['author'] + `, ` + data[idx]['country'] + `">
+				      <div style="background: url('` + data[idx]['style']['image'] + `') no-repeat; background-size: cover; background-position: center;"></div>
+				      <figure>[STYLE] ` + data[idx]['style']['caption'] + `</figure>
+				    </a>
+
+				    <a class="demo-gallery__img--main fuse-image" href="` + data[idx]['fuse']['image'] + `" data-size="1600x1200" data-med="` + data[idx]['fuse']['image'] + `" data-med-size="1024x768" data-author="` + data[idx]['author'] + `, ` + data[idx]['country'] + `">
+				      <div style="background: url('` + data[idx]['fuse']['image'] + `') no-repeat; background-size: cover; background-position: center;"></div>
+				      <figure>` + data[idx]['fuse']['caption'] + `</figure>
+				    </a>
+				  </div>
+				</div>`
+
+				$('#gallery').append(item);
+			}
+
+			initPhotoSwipeFromDOM('.demo-gallery');
+    	});
 	</script>
-
-
-
-    
-    
-
-    
-
-
-
-
   </body>
 </html>
