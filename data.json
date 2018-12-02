@@ -1,5 +1,22 @@
 [
     {
+        "title" : "Spirit by the lakes",
+        "author" : "Pradeep Singh",
+        "country" : "India",
+        "content" : {
+            "image" : "./images/c_pswaldia1.jpg",
+            "caption" : ""
+        },
+        "style" : {
+            "image" : "./images/s_pswaldia1.jpg",
+            "caption" : ""
+        },
+        "fuse" : {
+            "image" : "./images/r_pswaldia1.jpg",
+            "caption" : "Spirit by the lakes"
+        }
+    },
+    {
         "title" : "The Black Rose",
         "author" : "Samuel",
         "country" : "Indonesia",
