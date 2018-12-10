@@ -2,57 +2,6 @@
     {
         "title": "Vegas",
         "author" : "Chris Fotache",
-        "country" : "United States",
-        "content" : {
-            "image" : "./images/c_cf.jpg",
-            "caption" : ""
-        },
-        "style" : {
-            "image" : "./images/s_cf.jpg",
-            "caption" : ""
-        },
-        "fuse" : {
-            "image" : "./images/r_cf.jpg",
-            "caption" : "Vegas"
-        }
-    },
-    {
-        "title": "Vegas",
-        "author" : "Chris Fotache",
-        "country" : "United State",
-        "content" : {
-            "image" : "./images/c_cf.jpg",
-            "caption" : ""
-        },
-        "style" : {
-            "image" : "./images/s_cf.jpg",
-            "caption" : ""
-        },
-        "fuse" : {
-            "image" : "./images/r_cf.jpg",
-            "caption" : "Vegas"
-        }
-    },
-        {
-        "title": "Sunset",
-        "author" : "Mihail Dragomirescu",
-        "country" : "United State",
-        "content" : {
-            "image" : "./images/c_cf.jpg",
-            "caption" : ""
-        },
-        "style" : {
-            "image" : "./images/s_cf.jpg",
-            "caption" : ""
-        },
-        "fuse" : {
-            "image" : "./images/r_cf.jpg",
-            "caption" : "Vegas"
-        }
-    },
-    {
-        "title": "Vegas",
-        "author" : "Chris Fotache",
         "country" : "United State",
         "content" : {
             "image" : "./images/c_cf.jpg",
