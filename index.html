@@ -529,7 +529,9 @@
 
 	    	$.get(window.location.origin + '/data.json').done(function(data) {
 		    	N = 60;
-		    	data = JSON.parse(data)
+		    	try{
+			    	data = JSON.parse(data)
+		    	} catch {}
 		    	len = data.length;
 		    	indexes = [];
 
