@@ -19,7 +19,7 @@
     {
         "title": "Vegas",
         "author" : "Chris Fotache",
-        "country" : "United State",
+        "country" : "United States",
         "content" : {
             "image" : "./images/c_cf.jpg",
             "caption" : ""
@@ -36,7 +36,7 @@
         {
         "title": "Sunset",
         "author" : "Mihail Dragomirescu",
-        "country" : "United State",
+        "country" : "United States",
         "content" : {
             "image" : "./images/c_cf.jpg",
             "caption" : ""
@@ -53,7 +53,7 @@
     {
         "title": "Vegas",
         "author" : "Chris Fotache",
-        "country" : "United State",
+        "country" : "United States",
         "content" : {
             "image" : "./images/c_cf.jpg",
             "caption" : ""
