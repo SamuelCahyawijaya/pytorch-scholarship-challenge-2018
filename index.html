@@ -509,20 +509,33 @@
 				}
 			};
 
+	    	function shuffle(array) {
+				var currentIndex = array.length, temporaryValue, randomIndex;
+
+				// While there remain elements to shuffle...
+				while (0 !== currentIndex) {
+					// Pick a remaining element...
+					randomIndex = Math.floor(Math.random() * currentIndex);
+					currentIndex -= 1;
+
+					// And swap it with the current element.
+					temporaryValue = array[currentIndex];
+					array[currentIndex] = array[randomIndex];
+					array[randomIndex] = temporaryValue;
+				}
+
+				return array;
+			}
+
 	    	$.get(window.location.origin + '/data.json').done(function(data) {
-		    	N = 30;
+		    	N = 60;
+		    	data = JSON.parse(data)
 		    	len = data.length;
 		    	indexes = [];
+
+		    	index_array = shuffle(Array.apply(null, {length: len}).map(Number.call, Number))
 				for (i = 0; i < Math.min(N, len); i++) {
-					if (len > 2 * N){
-						do{
-							rand = Math.random();
-							idx = Math.floor(rand * data.length)
-						} while (indexes.indexOf(idx) != -1);
-						indexes.push(idx);
-					}else{
-						idx = i;
-					}
+					idx = index_array[i];
 
 					item = `<div class="row">
 					  <div><b>` + data[idx]['title'] + `</b></div>

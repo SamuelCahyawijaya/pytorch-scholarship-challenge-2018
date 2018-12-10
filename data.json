@@ -1,5 +1,328 @@
 [
     {
+        "title": "Vegas",
+        "author" : "Chris Fotache",
+        "country" : "United State",
+        "content" : {
+            "image" : "./images/c_cf.jpg",
+            "caption" : ""
+        },
+        "style" : {
+            "image" : "./images/s_cf.jpg",
+            "caption" : ""
+        },
+        "fuse" : {
+            "image" : "./images/r_cf.jpg",
+            "caption" : "Vegas"
+        }
+    },
+    {
+        "title": "Vegas",
+        "author" : "Chris Fotache",
+        "country" : "United State",
+        "content" : {
+            "image" : "./images/c_cf.jpg",
+            "caption" : ""
+        },
+        "style" : {
+            "image" : "./images/s_cf.jpg",
+            "caption" : ""
+        },
+        "fuse" : {
+            "image" : "./images/r_cf.jpg",
+            "caption" : "Vegas"
+        }
+    },
+        {
+        "title": "Sunset",
+        "author" : "Mihail Dragomirescu",
+        "country" : "United State",
+        "content" : {
+            "image" : "./images/c_cf.jpg",
+            "caption" : ""
+        },
+        "style" : {
+            "image" : "./images/s_cf.jpg",
+            "caption" : ""
+        },
+        "fuse" : {
+            "image" : "./images/r_cf.jpg",
+            "caption" : "Vegas"
+        }
+    },
+    {
+        "title": "Vegas",
+        "author" : "Chris Fotache",
+        "country" : "United State",
+        "content" : {
+            "image" : "./images/c_cf.jpg",
+            "caption" : ""
+        },
+        "style" : {
+            "image" : "./images/s_cf.jpg",
+            "caption" : ""
+        },
+        "fuse" : {
+            "image" : "./images/r_cf.jpg",
+            "caption" : "Vegas"
+        }
+    },
+    {
+        "title" : "Sacred Sunrise",
+        "author" : "Layla Messner",
+        "country" : "Canada",
+        "content" : {
+            "image" : "./images/c_lm_11.jpg",
+            "caption" : ""
+        },
+        "style" : {
+            "image" : "./images/s_lm_11.jpg",
+            "caption" : ""
+        },
+        "fuse" : {
+            "image" : "./images/r_lm_11.jpg",
+            "caption" : "Light play over Mt Kailash"
+        }
+    },
+    {
+        "title" : "The Great Pyramid",
+        "author" : "Alaa Melek",
+        "country" : "Egypt",
+        "content" : {
+            "image" : "./images/c_am.jpg",
+            "caption" : ""
+        },
+        "style" : {
+            "image" : "./images/s_am.jpg",
+            "caption" : ""
+        },
+        "fuse" : {
+            "image" : "./images/r_am.jpg",
+            "caption" : "The Great Pyramid of Egypt"
+        }
+    },
+    {
+        "title" : "Pacifica, Auckland",
+        "author" : "Rana",
+        "country" : "New Zealand",
+        "content" : {
+            "image" : "./images/c_rana.jpg",
+            "caption" : ""
+        },
+        "style" : {
+            "image" : "./images/s_rana.jpg",
+            "caption" : ""
+        },
+        "fuse" : {
+            "image" : "./images/r_rana.jpg",
+            "caption" : "Pacifica, Auckland"
+        }
+    },
+    {
+        "title" : "God Amongst Men",
+        "author" : "Guido",
+        "country" : "Equador",
+        "content" : {
+            "image" : "./images/c_sputnik3000_1.jpg",
+            "caption" : ""
+        },
+        "style" : {
+            "image" : "./images/s_sputnik3000_1.jpg",
+            "caption" : ""
+        },
+        "fuse" : {
+            "image" : "./images/r_sputnik3000_1.jpg",
+            "caption" : "God Amongst Men"
+        }
+    },
+    {
+        "title" : "Garden of Madness",
+        "author" : "Guido",
+        "country" : "Equador",
+        "content" : {
+            "image" : "./images/c_sputnik3000_2.jpg",
+            "caption" : ""
+        },
+        "style" : {
+            "image" : "./images/s_sputnik3000_2.jpg",
+            "caption" : ""
+        },
+        "fuse" : {
+            "image" : "./images/r_sputnik3000_2.jpg",
+            "caption" : "Garden of Madness"
+        }
+    },
+    {
+        "title" : "Deep Dream",
+        "author" : "Virita",
+        "country" : "Mexico",
+        "content" : {
+            "image" : "./images/c_virita_1.jpg",
+            "caption" : ""
+        },
+        "style" : {
+            "image" : "./images/s_virita_1.jpg",
+            "caption" : ""
+        },
+        "fuse" : {
+            "image" : "./images/r_virita_1.jpg",
+            "caption" : "Deep Dream"
+        }
+    },
+    {
+        "title" : "University of Texas",
+        "author" : "Virita",
+        "country" : "Mexico",
+        "content" : {
+            "image" : "./images/c_virita_2.jpg",
+            "caption" : ""
+        },
+        "style" : {
+            "image" : "./images/s_virita_2.jpg",
+            "caption" : ""
+        },
+        "fuse" : {
+            "image" : "./images/r_virita_2.jpg",
+            "caption" : "University of Texas"
+        }
+    },
+    {
+        "title" : "The Cartoon of Me",
+        "author" : "Gabrielle Picco",
+        "country" : "Mexico",
+        "content" : {
+            "image" : "./images/c_gabrielle.jpg",
+            "caption" : ""
+        },
+        "style" : {
+            "image" : "./images/s_gabrielle.jpg",
+            "caption" : ""
+        },
+        "fuse" : {
+            "image" : "./images/r_gabrielle.jpg",
+            "caption" : "The Cartoon of Me"
+        }
+    },
+    {
+        "title" : "The Marina Bay",
+        "author" : "Clement",
+        "country" : "New Zealand",
+        "content" : {
+            "image" : "./images/c_clement.jpg",
+            "caption" : ""
+        },
+        "style" : {
+            "image" : "./images/s_clement.jpg",
+            "caption" : ""
+        },
+        "fuse" : {
+            "image" : "./images/r_clement.jpg",
+            "caption" : "The Marina Bay"
+        }
+    },
+    {
+          "title" : "The Promenade",
+          "author" : "Tatiana Gaponova",
+          "country" : "France",
+          "content" : {
+              "image" : "./images/c_tatiana.jpg",
+              "caption" : ""
+          },
+          "style" : {
+              "image" : "./images/s_tatiana.jpg",
+              "caption" : ""
+          },
+          "fuse" : {
+              "image" : "./images/r_tatiana.jpg",
+              "caption" : "The Promenade"
+          }
+    },
+    {
+          "title" : "Night Vision",
+          "author" : "Sammy Mutahi",
+          "country" : "Kenya",
+          "content" : {
+              "image" : "./images/c_sammy.jpg",
+              "caption" : ""
+          },
+          "style" : {
+              "image" : "./images/s_sammy.jpg",
+              "caption" : ""
+          },
+          "fuse" : {
+              "image" : "./images/r_sammy.jpg",
+              "caption" : "Night Vision"
+          }
+    },
+    {
+          "title" : "The Frog is Thinking",
+          "author" : "César Tablas",
+          "country" : "Canada",
+          "content" : {
+              "image" : "./images/c_cptablas.jpg",
+              "caption" : ""
+          },
+          "style" : {
+              "image" : "./images/s_cptablas.jpg",
+              "caption" : ""
+          },
+          "fuse" : {
+              "image" : "./images/r_cptablas.jpg",
+              "caption" : "The Frog is Thinking"
+          }
+    },
+    {
+          "title" : "Homemade Winter Waterfall",
+          "author" : "César Tablas",
+          "country" : "Canada",
+          "content" : {
+              "image" : "./images/c_cp_tablas_2.jpg",
+              "caption" : ""
+          },
+          "style" : {
+              "image" : "./images/s_cp_tablas_2.jpg",
+              "caption" : ""
+          },
+          "fuse" : {
+              "image" : "./images/r_cp_tablas_2.jpg",
+              "caption" : "Homemade Winter Waterfall"
+          }
+    },
+    {
+          "title" : "Taj Mahal",
+          "author" : "Aman Kumar",
+          "country" : "India",
+          "content" : {
+              "image" : "./images/c_ak.jpg",
+              "caption" : ""
+          },
+          "style" : {
+              "image" : "./images/s_ak.jpg",
+              "caption" : ""
+          },
+          "fuse" : {
+              "image" : "./images/r_ak.jpg",
+              "caption" : "Taj Mahal"
+          }
+    },
+    {
+          "title" : "Art of Skydiving",
+          "author" : "Pedro Prater",
+          "country" : "Brazil",
+          "content" : {
+              "image" : "./images/c_pp.jpg",
+              "caption" : ""
+          },
+          "style" : {
+              "image" : "./images/s_pp.jpg",
+              "caption" : ""
+          },
+          "fuse" : {
+              "image" : "./images/r_pp.jpg",
+              "caption" : "Art of Skydiving"
+          }
+    },
+    {
         "title" : "Spirit by the lakes",
         "author" : "Pradeep Singh",
         "country" : "India",
