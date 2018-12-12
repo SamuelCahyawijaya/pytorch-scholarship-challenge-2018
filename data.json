@@ -1,5 +1,22 @@
 [
     {
+        "title" : "Toby",
+        "author" : "Monica Rao",
+        "country" : "United States",
+        "content" : {
+            "image" : "./images/IMG_3912.JPG",
+            "caption" : "Toby"
+        },
+        "style" : {
+            "image" : "./images/pablo-picasso.jpg",
+            "caption" : "Piccaso"
+        },
+        "fuse" : {
+            "image" : "./images/fuse.JPG",
+            "caption" : "Piccaso-Toby"
+        }
+    },
+    {
         "title": "Vegas",
         "author" : "Chris Fotache",
         "country" : "United States",
