@@ -1,5 +1,23 @@
 [
     {
+        "title" : "Styled-Magritte",
+        "author" : "Ibrahim",
+        "country" : "Nigeria",
+        "content" : {
+            "image" : "/images/magritte.jpg",
+            "caption" : "Magritte"
+        },
+        "style" : {
+            "image" : "/images/ben_passmore.jpg",
+            "caption" : "Ben_passmore"
+        },
+        "fuse" : {
+            "image" : "/images/result.jpg",
+            "caption" : "Styled-Magritte"
+        }
+    },
+    
+    {
         "title" : "Toby",
         "author" : "Monica Rao",
         "country" : "United States",
