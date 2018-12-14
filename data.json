@@ -1,5 +1,23 @@
 [
     {
+        "title" : "Kwame Nkrumah Mausoleum",
+        "author" : "Kofi Asiedu",
+        "country" : "Ghana",
+        "content" : {
+            "image" : "./images/knm_orig.jpg",
+            "caption" : "There He lay"
+        },
+        "style" : {
+            "image" : "./images/knm_style.jpg",
+            "caption" : "Edtaonisl - Francis Picabia"
+        },
+        "fuse" : {
+            "image" : "./images/knm.jpg",
+            "caption" : "Sights of the Founder"
+        }
+    },
+    
+    {
         "title" : "Styled-Magritte",
         "author" : "Ibrahim",
         "country" : "Nigeria",
